@@ -1,0 +1,31 @@
+.nav>li{
+display: inline-block;
+    border: 1px solid green;
+    position: relative;
+    width: 25%;
+    margin-left: -5px;
+    
+}
+li{
+    cursor: pointer;   
+}
+.submenu{
+background: #eee;   
+position: absolute;
+    left: -1px;
+top: 100%;
+    width: 200px;
+    padding: 0;
+    display: none;
+}
+.submenu li{
+list-style: none;        
+}
+.nav>li:hover .submenu{
+  display: block;
+}
+.submenu li:hover{
+    background: #fff;
+    color: #333;
+}
+
